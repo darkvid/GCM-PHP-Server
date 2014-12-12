@@ -8,9 +8,13 @@ $app->post('/idreceiver', function() use ($app){
 	header("Content-Type: application/json");
 	$json = json_decode($app->getInstance()->request()->getBody());
 
-	$usuario = $json->{'id'};
+	$idEnvio = $json->{'idEnvio'};
+	$telefono = $json->{'telefono'};
 	
-	echo json_encode(1);
+	//si todo ok
+	$result = 1;
+
+	echo json_encode($result);
 });
 
 ?>
