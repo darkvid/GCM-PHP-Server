@@ -1,6 +1,6 @@
 <?php
 	
-	$apiKey = "AIzaSyDZKAqwk6-UZ8Wg5vtaqWEUhnWyy8wM1Os";
+	$apiKey = "api-key";
 	$url = 'https://android.googleapis.com/gcm/send';
 
 ?>
